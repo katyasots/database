@@ -1,0 +1,22 @@
+{
+  "name": "music",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "seed1": "node seeders/seed.js",
+    "seed2": "node seeders/faker.js",
+    "seed3": "node seeders/create_index.js"
+
+  },
+  "dependencies": {
+    "faker": "^5.5.3",
+    "pg": "^8.13.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
